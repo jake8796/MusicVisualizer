@@ -1,2 +1,2 @@
 # MusicVisualizer
-Here is a music visualizer that visualizes the pitch of a song using a 16x16 led display, arduino mega and a microphone. There are three different functions that control the color of the LEDs.
+This code uses the FHT library to transform the incoming soundwaves into the frequency domain. Then, using the FastLED library it displays the magnitude of each bin on an LED matrix.
